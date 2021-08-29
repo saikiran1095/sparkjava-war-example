@@ -4,7 +4,7 @@ stages{
     stage("code checkout"){
         steps{
             script{
-               git credentialsId: '7a815742-dc36-41fc-ba7f-eae204ecec91', url: 'https://github.com/saikiran1095/gameoflife.git' 
+               git credentialsId: '7a815742-dc36-41fc-ba7f-eae204ecec91', url: 'https://github.com/saikiran1095/sparkjava-war-example.git' 
             }
         }
     }
